@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Art & Craft</title>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Taviraj" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/gif" href="images/sw-01.jpg">
+    <script>
+        function myfun() {
+            document.getElementById("mydrp").classList.toggle("show");
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches('.drpdn')) {
+                var dropdowns = document.getElementsByClassName("dcon");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+        function myf1() {
+            var element = document.getElementById("scrl");
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    </script>
+
+</head>
+
+<body>
+    <header>
+
+        <a href="index.html" class="nl"> <h1>Art & Craft </h1></a>
+    </header>
+
+    <nav>
+        <div class="drp">
+            <button onclick="myfun()" class="drpdn">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Menu
+            </button>
+            <div id="mydrp" class="dcon">
+
+                <ul>
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item" id="scrl"><a href="#f1" onclick="myf1()"> About Us</a></li>
+                    <li class="nav-item"><a href="#f2">Antique</a></li>
+                    <li class="nav-item"><a href="#f3">Paintings</a></li>
+                    <li class="nav-item"><a href="#f5">Lamps and Lighting</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <section>
+        <div class="outerbox">
+            <div class="sliderbox">
+                <img src="images/bg.jpg" class="sec1"  alt="background"/>
+                <img src="images/sl2.jpg" class="sec1" alt="background"/>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec2">
+
+
+        <hr>
+        <h2>New Products:</h2>
+
+        <div class="flex-container">
+            <div class="flex-item">
+
+                <div class="bn" id="but">
+
+                </div>
+
+                <p>
+                    <a> <img src="images/1.jpg" class="new" alt="Lamp" /></a>
+                </p>
+            </div>
+
+            <div class="flex-item">
+                <p>
+                    <a><img src="images/2.jpg" class="new" alt="Vase" /></a>
+                </p>
+            </div>
+
+            <div class="flex-item">
+                <p>
+                    <a> <img src="images/006.jpg" class="new" alt="Chandelier" /> </a>
+
+                </p>
+            </div>
+
+            <div class="flex-item">
+                <p>
+                    <a> <img src="images/055.jpg" class="new" alt="Pots" /></a>
+                </p>
+            </div>
+
+            <div class="flex-item">
+                <p>
+                    <a><img src="images/081.jpg" class="new" alt="Lamps" /></a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <br><br>
+    <div class="flex-container">
+        <div class="flex-item" id="f1"></div>
+    </div>
+    <br>
+    <section class="sec 3">
+
+        <div class="flex-container">
+            <div class="flex-item2">
+                <h2>About us:</h2>
+                <p class="sec">
+                    Art & Craft is India’s only Supplier with in-house manufacturing of a large number of products including beautiful products
+                    in MDF for decorative and household use, as well as Laser Cuts, Chipboard Embellishments, Decoupage Paper,
+                    Paper Crafting Paper, Stamps and Stencils. This ensures that you always get the best prices possible
+                    for all these products!<br><br> Added to that is a wide range of the world’s best
+                    Art and Craft Supplies, making Art & Craft a one stop shop for high quality and very competitively priced
+                    MDF Blanks, Paper Crafts, Paints, Stamps, Dies, Beads, Sequins, Glitter, Artist Brushes, Inks, Ink Pads,
+                    Baking Accessories, Knitting Yarn, Embroidery Kits and much more!<br><br> These give you a huge range
+                    of possibilities to create unique Projects, and all these products are delivered right to your doorstep
+                    at no extra cost! Art & Craft also offers a unique customization option in a wide palette of beautiful
+                    shades. Additionally, Art & Craft now provides the unique option of customizing a myriad Home Decor products
+                    using the customers' own favorite designs, enabling crafters to increase production manifold!<br><br>                    All
+                    you have to do then, is give it that flourish with your personal style. This way you get to customize
+                    more, make more and sell more!
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <br><br><br>
+    <div class="flex-container">
+        <div class="flex-item"></div>
+    </div>
+
+    <br><br>
+
+
+    <section class="sec 4">
+
+        <div class="flex-container">
+
+            <div class="flex-item" id="f2">
+                <br><br>
+                <h2>Antique:</h2>
+                <p class="sec" style="display:flex; flex-direction:row; ">
+                    <img src="images/anti1.jpg" class="new1" alt="Antique" /> &nbsp;&nbsp;
+                    <img src="images/anti5.jpg" class="new1" alt="Antique" />
+                </p>
+
+                <p class="sec" style="display:flex; flex-direction:row; ">
+                    <img src="images/anti2.jpg" class="new1" alt="Antique" />
+                </p>
+            </div>
+
+            <div class="flex-item" id="f3">
+                <br><br>
+                <h2> Paintings:</h2>
+
+
+                <p class="sec" style="display:flex; flex-direction:row; ">
+                    <img src="images/paint1.jpg" class="new1" alt="Painting" /> &nbsp;&nbsp;
+                    <img src="images/paint2.jpg" class="new1" alt="Painting" />
+                </p>
+
+                <p class="sec" style="display:flex; flex-direction:row; ">
+                    <img src="images/paint5.jpg" class="new1" alt="Painting" /> &nbsp;&nbsp;
+                    <img src="images/paint7.jpg" class="new1" alt="Painting" />
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <br><br>
+    <div class="flex-container">
+        <div class="flex-item" id="f5"></div>
+    </div>
+    <br>
+
+    <section class="sec 5">
+
+        <div class="flex-container">
+            <div class="flex-item">
+                <h2>Lamps and Lighting:</h2>
+                <div class="flex-container">
+                    <div class="flex-item6">
+                        <p class="sec5" style="display:flex; flex-direction:row; ">
+                            <img src="images/lamp3.jpg" class="new1" alt="Lamp" />
+                        </p>
+                    </div>
+                    <div class="flex-item6">
+                        <p class="sec5" style="display:flex; flex-direction:row; ">
+                            <img src="images/c3.jpg" class="new1" alt="Lamp" />
+                        </p>
+                    </div>
+                    <div class="flex-item6">
+                        <p class="sec5" style="display:flex; flex-direction:row; ">
+                            <img src="images/lamp4.jpg" class="new1" alt="Lamp" />
+                        </p>
+                    </div>
+                    <div class="flex-item6">
+                        <p class="sec5" style="display:flex; flex-direction:row; ">
+                            <img src="images/c2.jpg" class="new1" alt="Lamp" />
+                        </p>
+                    </div>
+                    <div class="flex-item6">
+                        <p class="sec5" style="display:flex; flex-direction:row; ">
+                            <img src="images/lam.jpg" class="new1" alt="Lamp" />
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <br>
+
+    <footer>
+        <div class="flex-container">
+            <div class="flex-item1">
+                <article>
+                    <h2>
+                        Contact Us:
+                    </h2>
+                    <b><span class="glyphicon glyphicon-phone-alt"> </span>Ring us at:</b> +91 988997660 <br>
+                    <b><span class="glyphicon glyphicon-envelope"> </span> Email us at:</b> iwakankar@hotmail.com
+                    <br>
+                </article>
+            </div>
+            <div class="flex-item1">
+                <article>
+                    <h2>
+                        Reach us at:
+                    </h2>
+                    <a href="https://en-gb.facebook.com/login/" class="fa fa-facebook" target="_blank"></a>
+                    <a href="https://twitter.com/login" class="fa fa-twitter" target="_blank"></a>
+                    <a href="https://www.instagram.com/accounts/login/" class="fa fa-instagram" target="_blank"></a>
+                    <br><br>
+                </article>
+                
+            </div>
+            
+        </div>
+        <div class="flex-container">
+            <div class="flex-item1">
+                <p align:"right">
+                Copyright © Isha Wakankar</p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
